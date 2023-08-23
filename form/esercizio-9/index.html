@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esercizi HTML base</title>
+
+</head>
+
+<body>
+
+  <!-- Aggiungi un campo di testo che richiede un indirizzo email valido. -->
+  <form>
+
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" placeholder="Mario">
+    </div>
+
+    <div>
+      <input type="hidden" id="hiddenField" name="hiddenField" value="valorePredefinito">
+    </div>
+
+    <div>
+      <label for="rta">Età:</label>
+      <input type="number" name="eta" id="eta" placeholder="18">
+    </div>
+
+    <div>
+      <label for="mail">Email:</label>
+      <input type="email" name="mail" id="mail" placeholder="mariorossi@example.com" required>
+    </div>
+
+    <div>
+      <select id="country" name="country">
+        <option value="italy">Italia</option>
+        <option value="france">Francia</option>
+        <option value="germany">Germania</option>
+      </select>
+    </div>
+
+    <div>
+
+      <input type="radio" name="genre" id="man">
+      <label for="man">Uomo</label>
+
+      <input type="radio" name="genre" id="woman">
+      <label for="woman">Donna</label>
+
+    </div>
+
+    <div>
+
+      <input type="checkbox" id="interest1" name="interest1" value="sport">
+      <label for="interest1">Sport</label>
+
+      <input type="checkbox" id="interest2" name="interest2" value="music">
+      <label for="interest2">Musica</label>
+
+      <input type="checkbox" id="interest3" name="interest3" value="reading">
+      <label for="interest3">Lettura</label>
+
+    </div>
+
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+    <div>
+      <input type="checkbox" name="" id=""> Accetta termini e condizioni
+    </div>
+
+  </form>
+
+  <button>Invio</button>
+
+</body>
+
+</html>
